@@ -36,9 +36,7 @@ export default function Experience() {
           geometry={model.nodes.portalLight.geometry}
           position={model.nodes.portalLight.position}
           rotation={model.nodes.portalLight.rotation}
-        >
-          <shaderMaterial />
-        </mesh>
+        ></mesh>
         <Sparkles size={6} scale={[4, 2, 4]} position-y={1} speed={0.5} />
       </Center>
       {/* <primitive object={model.scene} /> */}
